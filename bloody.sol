@@ -1,17 +1,6 @@
-/**
- *Submitted for verification at BscScan.com on 2021-03-25
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2021-03-23
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2021-03-20
-*/
-
 pragma solidity ^0.6.12;
 // SPDX-License-Identifier: Unlicensed
+
 interface IERC20 {
 
     function totalSupply() external view returns (uint256);
@@ -1148,8 +1137,5 @@ contract DraculasBloodyToken is Context, IERC20, Ownable {
         _reflectFee(rFee, tFee);
         emit Transfer(sender, recipient, tTransferAmount);
     }
-
-
-    
 
 }
